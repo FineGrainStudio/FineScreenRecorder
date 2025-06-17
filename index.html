@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Fine Screen Recorder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#4080FF',
+                        neutral: {
+                            100: '#F2F3F5',
+                            200: '#E5E6EB',
+                            300: '#C9CDD4',
+                            400: '#86909C',
+                            500: '#4E5969',
+                            600: '#272E3B',
+                            700: '#1D2129',
+                        }
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 4px 20px rgba(0, 0, 0, 0.08)',
+                        'card-hover': '0 8px 30px rgba(0, 0, 0, 0.12)',
+                    }
+                },
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-balance {
+                text-wrap: balance;
+            }
+            .privacy-container {
+                max-width: 85ch;
+            }
+            .section-heading {
+                @apply text-[clamp(1.5rem,3vw,2rem)] font-bold text-neutral-700 mb-4;
+            }
+            .sub-heading {
+                @apply text-[clamp(1.2rem,2vw,1.5rem)] font-semibold text-neutral-600 mb-3 mt-8;
+            }
+            .content-paragraph {
+                @apply text-neutral-500 mb-4 leading-relaxed text-balance;
+            }
+            .policy-item {
+                @apply mb-6 pl-6 relative;
+            }
+            .policy-item::before {
+                content: '•';
+                @apply absolute left-0 text-primary text-lg;
+            }
+        }
+    </style>
+</head>
+<body class="font-inter bg-neutral-100 text-neutral-700 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300" id="main-header">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa fa-video-camera text-primary text-2xl"></i>
+                <h1 class="text-xl font-bold text-neutral-700">Fine Screen Recorder</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="text-primary font-medium border-b-2 border-primary pb-1">Privacy Policy</a>
+            </nav>
+            <button class="md:hidden text-neutral-700 focus:outline-none" id="mobile-menu-button">
+                <i class="fa fa-bars text-xl"></i>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-white border-t border-neutral-200" id="mobile-menu">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="#" class="text-primary font-medium py-2">Privacy Policy</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="flex-grow py-12 px-4 md:px-6">
+        <div class="container mx-auto privacy-container">
+            <div class="bg-white rounded-xl shadow-card p-6 md:p-8 mb-8 transform transition-all duration-300 hover:shadow-card-hover">
+                <h2 class="section-heading">Privacy Policy</h2>
+                <p class="text-neutral-400 mb-8">Last updated: June 17, 2025</p>
+                
+                <div class="prose prose-lg max-w-none">
+                    <p class="content-paragraph">
+                        This Privacy Policy describes how your personal information is collected, used, and shared when you use the Fine Screen Recorder application ("the App") developed by Fine Technologies Inc. ("we," "us," or "our").
+                    </p>
+                    
+                    <h3 class="sub-heading">By using the App, you agree to the collection and use of information in accordance with this policy.</h3>
+                    <p class="content-paragraph font-medium text-neutral-600 mb-6">
+                        If you do not agree with any part of this Privacy Policy, please uninstall the App immediately.
+                    </p>
+                    
+                    <h3 class="sub-heading">Information Collection and Use</h3>
+                    <p class="content-paragraph">
+                        While using our App, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to:
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 text-neutral-500 space-y-2">
+                        <li>Email address</li>
+                        <li>Device information (such as device model, operating system version)</li>
+                        <li>Usage data (such as how you use the App, interaction with features)</li>
+                        <li>Screen recording content created using the App (if you choose to share it through our services)</li>
+                    </ul>
+                    
+                    <h3 class="sub-heading">How We Use Your Information</h3>
+                    <p class="content-paragraph">
+                        We use the collected information for various purposes:
+                    </p>
+                    <div class="policy-item">
+                        <p class="font-medium text-neutral-600">To provide and maintain the App</p>
+                        <p class="content-paragraph">
+                            We use the information you provide to deliver and improve the features and functionality of the App, ensuring it meets your needs effectively.
+                        </p>
+                    </div>
+                    <div class="policy-item">
+                        <p class="font-medium text-neutral-600">To notify you about changes</p>
+                        <p class="content-paragraph">
+                            We may use your information to send you notifications regarding updates to the App, changes to our policies, or other important information.
+                        </p>
+                    </div>
+                    <div class="policy-item">
+                        <p class="font-medium text-neutral-600">To process payments</p>
+                        <p class="content-paragraph">
+                            If you purchase premium features within the App, we use the provided information to process your payment and manage your subscription.
+                        </p>
+                    </div>
+                    <div class="policy-item">
+                        <p class="font-medium text-neutral-600">To comply with legal obligations</p>
+                        <p class="content-paragraph">
+                            We may use your information to comply with applicable laws, regulations, legal processes, or governmental requests.
+                        </p>
+                    </div>
+                    
+                    <h3 class="sub-heading">Data Storage</h3>
+                    <p class="content-paragraph">
+                        The App allows you to record your screen and save the recordings locally on your device. We do not access, view, or store these recordings unless you explicitly choose to upload or share them through our cloud storage or sharing features.
+                    </p>
+                    <p class="content-paragraph">
+                        If you use our cloud storage services, your recordings are encrypted and stored on secure servers. You retain full control over your content and can delete it at any time.
+                    </p>
+                    
+                    <h3 class="sub-heading">Third-Party Services</h3>
+                    <p class="content-paragraph">
+                        The App may contain links to third-party websites or services that are not operated by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services.
+                    </p>
+                    <p class="content-paragraph">
+                        Our App may use third-party services that collect information used to identify you. Examples of third-party service providers include:
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 text-neutral-500 space-y-2">
+                        <li>Analytics providers (such as Google Analytics)</li>
+                        <li>Cloud storage providers (such as Amazon Web Services)</li>
+                        <li>Payment processors (such as PayPal, Stripe)</li>
+                    </ul>
+                    
+                    <h3 class="sub-heading">Security</h3>
+                    <p class="content-paragraph">
+                        We value your trust in providing us your personal information, and we strive to use commercially acceptable means of protecting it. However, no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+                    </p>
+                    
+                    <h3 class="sub-heading">Children's Privacy</h3>
+                    <p class="content-paragraph">
+                        Our App does not address anyone under the age of 13 ("Children"). We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+                    </p>
+                    
+                    <h3 class="sub-heading">Changes to This Privacy Policy</h3>
+                    <p class="content-paragraph">
+                        We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+                    </p>
+                    <p class="content-paragraph">
+                        We will let you know via email and/or a prominent notice in our App before the change becomes effective and update the "Last updated" date at the top of this Privacy Policy.
+                    </p>
+                    <p class="content-paragraph font-medium text-neutral-600">
+                        You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+                    </p>
+                    
+                    <h3 class="sub-heading">Contact Us</h3>
+                    <p class="content-paragraph">
+                        If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
+                    </p>
+                    <p class="content-paragraph font-medium text-neutral-600 mb-6">
+                        support@finescreenrecorder.com
+                    </p>
+                    
+                    <div class="bg-primary/5 p-4 rounded-lg border-l-4 border-primary mt-10">
+                        <p class="font-medium text-neutral-700 mb-2">Acknowledgment</p>
+                        <p class="text-neutral-600">
+                            By using the Fine Screen Recorder App, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, please do not use our App. Your continued use of the App following the posting of changes to this Privacy Policy will be deemed your acceptance of those changes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Call to action -->
+            <div class="bg-gradient-to-r from-primary to-secondary text-white rounded-xl shadow-lg p-6 md:p-8 mb-8 text-center transform transition-all duration-300 hover:shadow-xl">
+                <h3 class="text-[clamp(1.3rem,2vw,1.8rem)] font-bold mb-4">Download Fine Screen Recorder Today</h3>
+                <p class="text-white/90 mb-6 max-w-2xl mx-auto">
+                    Capture every moment with precision and share your screen with the world.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#" class="bg-white text-primary hover:bg-neutral-100 px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center">
+                        <i class="fa fa-apple text-xl mr-2"></i> App Store
+                    </a>
+                    <a href="#" class="bg-white text-primary hover:bg-neutral-100 px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center">
+                        <i class="fa fa-android text-xl mr-2"></i> Google Play
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-700 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fa fa-video-camera text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold">Fine Screen Recorder</h3>
+                    </div>
+                    <p class="text-neutral-300 mb-4">
+                        The ultimate screen recording solution for creators, educators, and professionals.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Download</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Release Notes</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Tutorials</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Blog</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Support Center</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Community</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">About Us</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Contact</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Privacy Policy</a></li>
+                        <li><a href="#" class="text-neutral-300 hover:text-primary transition-colors duration-200">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-neutral-600 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-neutral-400 mb-4 md:mb-0">
+                    &copy; 2025 Fine Technologies Inc. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-neutral-400 hover:text-primary transition-colors duration-200">Privacy Policy</a>
+                    <a href="#" class="text-neutral-400 hover:text-primary transition-colors duration-200">Terms of Service</a>
+                    <a href="#" class="text-neutral-400 hover:text-primary transition-colors duration-200">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Header scroll effect
+        const header = document.getElementById('main-header');
+        let lastScrollY = window.scrollY;
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('py-2', 'shadow');
+                header.classList.remove('py-4');
+            } else {
+                header.classList.add('py-4');
+                header.classList.remove('py-2', 'shadow');
+            }
+            
+            lastScrollY = window.scrollY;
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+    
